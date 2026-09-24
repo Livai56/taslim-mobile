@@ -1,26 +1,25 @@
 Render Error
 
-Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `WrappedScreenComponent`.
+Invalid route ./+error.tsx. Route nodes cannot start with the '+' character. "Rename it to error.tsx"
 
 Source:
-C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js (15597:32)
+C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutesCore.js (536:23)
 
 Call Stack:
-createFiberFromTypeAndProps (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:15597)
-createFiberFromElement (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:15611)
-reconcileChildFibersImpl (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:4801)
-<anonymous> (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:4979)
-reconcileChildren (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:7742)
-updateFunctionComponent (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:8095)
-beginWork (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:9340)
-runWithFiberInDEV (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:697)
-performUnitOfWork (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:14134)
-workLoopSync (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13966)
-renderRootSync (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13947)
-performWorkOnRoot (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13160)
-performSyncWorkOnRoot (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3688)
-flushSyncWorkAcrossRoots_impl (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3538)
-flushPassiveEffects (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:14887)
-scheduleCallback$argument_1 (C:\Users\HP\Desktop\Kiemtore\New folder\essai\mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:14415)
+getFileMeta (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutesCore.js:536)
+getDirectoryTree (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutesCore.js:221)
+getDirectoryTree (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutesCore.js:216)
+getRoutes (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutesCore.js:23)
+getRoutes (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\getRoutes.js:20)
+useStore (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\global-state\useStore.js:28)
+ContextNavigator (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\expo-router\build\ExpoRoot.js:122)
+callComponent.react_stack_bottom_frame (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:17130)
+renderWithHooks (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:5648)
+updateFunctionComponent (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:8081)
+beginWork (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:9340)
+runWithFiberInDEV (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:697)
+performUnitOfWork (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:14134)
+workLoopSync (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13966)
+renderRootSync (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13947)
+performWorkOnRoot (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:13160)
+performWorkOnRootViaSchedulerTask (C:\Users\HP\Desktop\Kiemtore\New folder\essai\Mohamed\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3673)
