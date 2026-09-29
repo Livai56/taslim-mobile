@@ -23,4 +23,4 @@ performWorkOnRoot (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries
 performSyncWorkOnRoot (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3688)
 flushSyncWorkAcrossRoots_impl (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3538)
 processRootScheduleInMicrotask (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3570)
-scheduleMicrotask$argument_0 (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3708)
+scheduleMicrotask$argument_0 (C:\Users\HP\Videos\taslim\node_modules\react-native\Libraries\Renderer\implementations\ReactFabric-dev.js:3708
